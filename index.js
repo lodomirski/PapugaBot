@@ -5,6 +5,7 @@ const token = process.env.TOKEN;
 const { QuickDB } = require('quick.db');
 const jsonc = require('jsonc');
 const db = new QuickDB();
+const keep_alive = require('./keep_alive.js')
 
 process.on('unhandledRejection', (reason, promise, a) => {
   console.log(reason, promise, a)
