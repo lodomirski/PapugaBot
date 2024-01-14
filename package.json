@@ -1,18 +1,26 @@
 {
   "name": "ticket-bot",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Bot with a ticket system using Discord.js v14",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sayrix/ticket-bot.git"
   },
   "keywords": [
     "discord",
     "ticket",
     "bot"
   ],
-  "author": "",
-  "license": "ISC"
+  "author": "Sayrix",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Sayrix/ticket-bot/issues"
+  },
+  "homepage": "https://github.com/Sayrix/ticket-bot#readme",
   "dependencies": {
     "@discordjs/rest": "^1.4.0",
     "axios": "^1.1.3",
