@@ -1,0 +1,71 @@
+{
+  "embeds": {
+    "openTicket": {
+      "title": "otwarto ticket",
+      "description": "Kliknij w przycisk by otworzyć ticket",
+      "footer": {
+        "text": "https://discord.gg/JG4sGt6KkS",
+        "iconUrl": ""
+      }
+    },
+    "ticketOpened": {
+      "title": "Ticket informację",
+      "description": "Administracja odpowie tak szybko jak to możliwę!",
+      "footer": {
+        "text": "https://discord.gg/JG4sGt6KkS",
+        "iconUrl": ""
+      }
+    },
+    "ticketClosed": {
+      "title": "Ticket zamknięty",
+      "description": "Ticket został zamknięty przez CLOSERNAME powodem jest: `REASON`"
+    },
+    "ticketClosedDM": {
+      "title": "Ticket zamknięty",
+      "description": "Ticket n°TICKETCOUNT został zamknięty przez CLOSERNAME powodem jest: `REASON`\n\ntu jest transcript ticketu: TRANSCRIPTURL",
+      "footer": {
+        "text": "https://discord.gg/JG4sGt6KkS",
+        "iconUrl": ""
+      }
+    }
+  },
+  "modals": {
+    "reasonTicketOpen": {
+      "title": "Otwarto ticket",
+      "label": "Powód stworzenia ticketu",
+      "placeholder": "Podaj powód dlaczego stworzyłeś ticket?"
+    },
+    "reasonTicketClose": {
+      "title": "Zamknięto ticket",
+      "label": "Powód zamknięcia ticketu",
+      "placeholder": "Podaj powód dlaczego zamknąłeś ticket?"
+    }
+  },
+  "buttons": {
+    "close": {
+      "label": "Zamknij ticket",
+      "emoji": "🔒"
+    },
+    "claim": {
+      "label": "Przyjmi",
+      "emoji": "🙋"
+    }
+  },
+  "ticketOpenedMessage": "Ticket Otwarto! TICKETCHANNEL",
+  "ticketOnlyClaimableByStaff": "The ticket can only be claimed by a staff!",
+  "ticketAlreadyClaimed": "The ticket is already claimed!",
+  "ticketClaimedMessage": "> Ticket claimed by USER",
+  "ticketOnlyClosableByStaff": "Tylko administracja może zamknąć ticket!",
+  "ticketAlreadyClosed": "Ticket jest już zamknięty!",
+  "ticketCreatingTranscript": "> Tworzenie transcriptu...",
+  "ticketTranscriptCreated": "> Transcript stworzony! TRANSCRIPTURL",
+  "ticketLimitReached": "posiadasz tylko TICKETLIMIT otwartych ticketów w tym samym czasie!",
+
+  "other": {
+    "openTicketButtonMSG": "Otwórz ticket",
+    "deleteTicketButtonMSG": "Usuń ticket",
+    "selectTicketTypePlaceholder": "Wybierz typ ticketu",
+    "claimedBy": "**Claimed By**: USER",
+    "noReasonGiven": "Nie podano powodu"
+  }
+}
